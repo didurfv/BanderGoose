@@ -1,0 +1,291 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+    margin-top: 34px;
+    margin-bottom: 58px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.main-page {
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo-text {
+    margin-left: 18px;
+}
+
+.banderogoose-container {
+    background-color: #fff;
+    padding: 60px 56px;
+    margin-top: 40px;
+    align-self: center;
+}
+
+.banderogoose-title {
+    color: #1b1d1f;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    font: Montserrat;
+}
+
+.banderogoose-greeting {
+    color: #1E1E21;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.banderogoose-start-text {
+    color: #FF6B0A;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 48px;
+
+}
+
+.banderogoose-descr {
+    color: #1E1E21;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+
+}
+
+.banderogoose-launch {
+    background: #FF6B0A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 15px 19px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.banderogoose-image {
+    align-self: flex-end;
+}
+
+.main-page-row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.goose-facts {
+    padding-top: 52px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1b1d1f;
+}
+
+.ukr-logo {
+    padding-bottom: 14px;
+}
+
+.goose-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    padding-bottom: 25px;
+}
+
+.goose-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 875px;
+}
+
+.goose-facts-container {
+    width: 1170px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.goose-fact-item {
+    width: 33%;
+}
+
+.goose-fact-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 12px 0 36px 0;
+}
+
+.goose-fact-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    width: 270px;
+}
+
+.victory-footer {
+    color: #1E1E21;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.victory-bgd {
+    background: linear-gradient(270deg, #c1e8ff 0%, #fff 100%);
+    width: 1170px;
+    padding: 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ukr-logo {
+    align-items: center;
+}
+
+.victory-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    margin: 16px 0;
+}
+
+.victory-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 875px;
+}
+
+/* pop-up вікнa */
+.modal-bgd {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(27 29 31 / 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-form-container {
+    position: relative;
+    background-color: #fff;
+    padding: 32px 92px 60px 92px;
+
+}
+
+.modal-form-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 32px 0 16px 0;
+    color: black;
+}
+
+.modal-form-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: black;
+}
+
+.modal-form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.modal-field-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.modal-field-input {
+    height: 48px;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 4px 8px;
+}
+
+.modal-form-btn {
+    background: #FF6B0A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 24px;
+    padding: 15px 19px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 14px;
+    color: #1b1d1f;
+    background-color: white;
+}
+
+.modal-descr {
+    margin-bottom: 0;
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+
+}
